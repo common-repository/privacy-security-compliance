@@ -1,0 +1,20 @@
+{
+  "name": "wp.essert.privacy.compliance.v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "author": "Rahul Arora",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "essert.privacy.compliance.app": "^1.5.3",
+    "laravel-mix": "^6.0.49"
+  }
+}
